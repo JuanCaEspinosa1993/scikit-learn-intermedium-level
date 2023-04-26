@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
     #Saving the model
     dump(pca, 'model/PCA_model.pkl')
-    dump(pca, 'model/IncrementalPCA_model')
+    dump(pca, 'model/IncrementalPCA_model.pkl')
 
     #plotting the results
     plt.plot(range(len(pca.explained_variance_)), pca.explained_variance_ratio_)
